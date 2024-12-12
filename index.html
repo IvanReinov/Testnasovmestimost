@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1E90FF; /* Синий фон */
+            color: white;
+            padding: 20px;
+        }
+        .answer-btn {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .answer-btn.correct {
+            background-color: green;
+            color: white;
+        }
+        .answer-btn.incorrect {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
